@@ -25,6 +25,8 @@ const updateFoodPosition = () =>{
     foodY = Math.floor(Math.random() * 30) + 1;
 }
 
+
+
 const handleGameOver = () =>{
     clearInterval(setIntervalID);
     alert("Game Over! Press OK to replay")
